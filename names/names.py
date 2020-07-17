@@ -13,11 +13,11 @@ f.close()
 duplicates = []  # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
-# 0(n*m)
+# 0(n^2)
 # for name_1 in names_1:0(n)
-#     for name_2 in names_2: 0(m)
+#     for name_2 in names_2: 0(n)
 #         if name_1 == name_2: 0(1)
-#             duplicates.append(name_1) 0(k)
+#             duplicates.append(name_1) 0(1)
 
 for name_1 in names_1: # followed the bst tester
     if bst is None:
