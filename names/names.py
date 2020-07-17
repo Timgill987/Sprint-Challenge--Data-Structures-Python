@@ -18,16 +18,20 @@ duplicates = []  # Return the list of duplicates in this data structure
 #     for name_2 in names_2: 0(n)
 #         if name_1 == name_2: 0(1)
 #             duplicates.append(name_1) 0(1)
-bst = None
+
+bst = None #0(1)
 for name_1 in names_1: #0(n) # followed the bst tester
     if bst is None: #0(1)
         bst = BSTNode(name_1)#0(1)
     else:
         bst.insert(name_1) #0(log n)
+#first loop 0(n log n)
+
+
 for name_2 in names_2: #0(n)
     if bst.contains(name_2): #0(log n)
         duplicates.append(name_2) #0(1)
-
+#0(n log n)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
