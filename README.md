@@ -64,6 +64,8 @@ Navigate into the `names` directory. Here you will find two text files containin
 
 Six seconds is an eternity so you've been tasked with speeding up the code. Can you get the runtime to under a second? Under one hundredth of a second?
 
+7.338000297546387 to 0.11800003051757812 after improvements
+
 *You may not use the built in Python list, set, or dictionary in your solution for this problem.  However, you can and should use the provided `duplicates` list to return your solution.*
 
 (Hint: You might try importing a data structure you built during the week)
